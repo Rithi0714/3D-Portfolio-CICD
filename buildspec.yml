@@ -5,14 +5,16 @@ phases:
     runtime-versions:
       nodejs: 20
     commands:
-      - echo Installing dependencies...
+      - echo "Installing dependencies..."
       - npm install
   build:
     commands:
-      - echo Building project...
+      - echo "Fixing vite permission..."
+      - chmod +x node_modules/.bin/vite
+      - echo "Building project..."
       - npm run build
 
 artifacts:
+  base-directory: dist
   files:
     - '**/*'
-  base-directory: build
