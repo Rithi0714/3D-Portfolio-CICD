@@ -1,11 +1,21 @@
 
-  # 3D Portfolio Design
+# 3D Portfolio Design
 
-  This is a code bundle for 3D Portfolio Design. The original project is available at https://www.figma.com/design/V3OxHZT4sTbSgYNpFIGO94/3D-Portfolio-Design.
+This repository contains the complete code for the **3D Portfolio Design** project.
 
-  ## Running the code
+🎨 **Original Design:**  
+Based on the Figma design available here: [3D Portfolio Design on Figma](https://www.figma.com/design/V3OxHZT4sTbSgYNpFIGO94/3D-Portfolio-Design)
 
-  Run `npm i` to install the dependencies.
+💻 **Project Overview:**  
+This project demonstrates how to host a 3D portfolio website using AWS services such as S3, CodeBuild, and CodePipeline for automated deployment.
 
-  Run `npm run dev` to start the development server.
+📹 **Watch the Full Deployment Tutorial:**  
+[Host Your Portfolio on AWS in 15 Minutes | End-to-End Deployment Setup](https://www.youtube.com/watch?v=aVInnh4SrBA)
+
+## 🚀 Running the Code
+
+1. Install the dependencies:
+   ```bash
+   npm i
+
   
